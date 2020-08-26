@@ -1,1 +1,1 @@
-System.register(["./p-939e032f.system.js","./p-b82787af.system.js"],(function(){"use strict";var t,e;return{setters:[function(e){t=e.b},function(t){e=t.p}],execute:function(){e().then((function(e){return t([["p-a53d78ed.system",[[1,"my-component"]]]],e)}))}}}));
+System.register(["./p-939e032f.system.js","./p-b82787af.system.js"],(function(){"use strict";var t,e;return{setters:[function(e){t=e.b},function(t){e=t.p}],execute:function(){e().then((function(e){return t([["p-98b2a3d5.system",[[1,"my-component"]]]],e)}))}}}));
