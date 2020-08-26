@@ -1,0 +1,54 @@
+:host {
+  display: block;
+}
+
+.header {
+  height: 80px;
+  border-bottom: 2px solid purple;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 100px;
+}
+
+.header__logo {
+  color: black;
+  display: block;
+  flex: 1;
+  font-family: Helvetica;
+  font-size: 48px;
+  align-self: center;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.header__linkList {
+  display: flex;
+  flex: 9;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__linkList ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.header__linkList li {
+  flex: 1;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.header__linkList li a {
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+.header__linkList li a:hover {
+  color: darkslategrey;
+}
